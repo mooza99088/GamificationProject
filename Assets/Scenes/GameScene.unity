@@ -19080,6 +19080,7 @@ GameObject:
   - component: {fileID: 814381680}
   - component: {fileID: 814381679}
   - component: {fileID: 814381678}
+  - component: {fileID: 814381684}
   m_Layer: 5
   m_Name: 'BedRoomTooltip '
   m_TagString: Untagged
@@ -19279,6 +19280,19 @@ RectTransform:
   m_AnchoredPosition: {x: 2.766, y: 1.537}
   m_SizeDelta: {x: 0.5, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!65 &814381684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814381677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &829110872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20813,6 +20827,7 @@ GameObject:
   - component: {fileID: 1068216261}
   - component: {fileID: 1068216265}
   - component: {fileID: 1068216259}
+  - component: {fileID: 1068216260}
   m_Layer: 5
   m_Name: FrontPorchTooltip
   m_TagString: Untagged
@@ -20916,6 +20931,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1068216260
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068216258}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1068216261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21026,6 +21054,7 @@ GameObject:
   - component: {fileID: 1079346744}
   - component: {fileID: 1079346743}
   - component: {fileID: 1079346742}
+  - component: {fileID: 1079346748}
   m_Layer: 5
   m_Name: 'DinningRoomTooltip '
   m_TagString: Untagged
@@ -21225,6 +21254,19 @@ RectTransform:
   m_AnchoredPosition: {x: -1.925, y: 1.537}
   m_SizeDelta: {x: 0.5, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!65 &1079346748
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079346741}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1092572026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26874,6 +26916,7 @@ GameObject:
   - component: {fileID: 1154087771}
   - component: {fileID: 1154087770}
   - component: {fileID: 1154087769}
+  - component: {fileID: 1154087775}
   m_Layer: 5
   m_Name: 'KitchenTooltip '
   m_TagString: Untagged
@@ -27073,6 +27116,19 @@ RectTransform:
   m_AnchoredPosition: {x: -3.03, y: 1.537}
   m_SizeDelta: {x: 0.5, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!65 &1154087775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154087768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1260853700
 GameObject:
   m_ObjectHideFlags: 0
@@ -33075,6 +33131,7 @@ GameObject:
   - component: {fileID: 1507726875}
   - component: {fileID: 1507726874}
   - component: {fileID: 1507726873}
+  - component: {fileID: 1507726879}
   m_Layer: 5
   m_Name: 'LivingRoomTooltip '
   m_TagString: Untagged
@@ -33274,6 +33331,19 @@ RectTransform:
   m_AnchoredPosition: {x: 1.363, y: 1.339}
   m_SizeDelta: {x: 0.5, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!65 &1507726879
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507726872}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1631612931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33966,6 +34036,7 @@ GameObject:
   - component: {fileID: 1662733158}
   - component: {fileID: 1662733157}
   - component: {fileID: 1662733156}
+  - component: {fileID: 1662733162}
   m_Layer: 5
   m_Name: 'BathRoomTooltip '
   m_TagString: Untagged
@@ -34165,6 +34236,19 @@ RectTransform:
   m_AnchoredPosition: {x: -3.213, y: 1.537}
   m_SizeDelta: {x: 0.5, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!65 &1662733162
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662733155}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1726929306
 GameObject:
   m_ObjectHideFlags: 0
