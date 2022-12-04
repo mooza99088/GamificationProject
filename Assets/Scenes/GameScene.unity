@@ -6250,8 +6250,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The Dinning room in cludes a large table, four chairs to cater for guests
-    and plenty of extra space.
+  m_Text: 'Includes a working fireplace to help keep warm during the colder months
+    of winter
 
 '
 --- !u!222 &173815484
@@ -27719,10 +27719,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Welcome to the cabin in the woods house tour.
+  m_Text: 'The cabin comes completely furnished and consists of 1 bedroom, 1 bathroom,
+    and a living
 
-    we hope you enjoy your
-    visit.
+    area with an open kitchen.
 
 '
 --- !u!222 &860568186
@@ -32658,8 +32658,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: the house comes with a large kitchen bench top to allow for lots of cooking,
-    an oven, fridge, a  dishwasher, a lots of cupboard space.
+  m_Text: 'The open kitchen includes a pantry, a fridge, a gas-powered stovetop,
+    and a fan-forced
+
+    oven.'
 --- !u!222 &892478931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33255,7 +33257,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079346741}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.301}
+  m_LocalPosition: {x: 0, y: 0, z: -0.209}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 1806325020}
@@ -33264,7 +33266,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.925, y: 1.537}
+  m_AnchoredPosition: {x: 2.411, y: 1.537}
   m_SizeDelta: {x: 0.5, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1079346748
@@ -34967,8 +34969,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The bath room is designed to be simple but functional, with the best shower,
-    toilet and sink and mirror.
+  m_Text: 'The cabin is completely plumbed, including a working bathroom with a shower
+    and toilet
 
 '
 --- !u!222 &1387949549
@@ -40786,7 +40788,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507726872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1.714}
+  m_LocalPosition: {x: 0, y: 0, z: 1.214}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 207526040}
@@ -40795,7 +40797,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.363, y: 1.339}
+  m_AnchoredPosition: {x: -0.431, y: 1.339}
   m_SizeDelta: {x: 0.5, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1507726879
@@ -51575,8 +51577,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "the Bedroom is fitted with the highest quality king bed, two bed side
-    tables, a bed side chair and plenty of storage for you clothes \n"
+  m_Text: 'Includes one bedroom that is large enough to comfortably house two adults
+    for long-term
+
+    stays
+
+'
 --- !u!222 &1726929309
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -53006,8 +53012,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'the living room is fournished with two of the finest couches, a coffe
-    table and a large TV.
+  m_Text: 'Uses renewable solar energy as the primary power source for the property.
 
 '
 --- !u!222 &2007988655
