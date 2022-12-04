@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,9 +9,13 @@ public class GameManager : MonoBehaviour
     private MouseLook mouseLook;
     private bool gamePaused = false;
 
+    private const int firstLevelIndex = 1;
+    private static int nextSceneIndex = 1;
+
 
     private void Awake()
     {
+        hud = FindObjectOfType<GameHUD>();
         mouseLook = FindObjectOfType<MouseLook>();
     }
 
@@ -29,10 +34,17 @@ public class GameManager : MonoBehaviour
         }     
     }
 
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1;
+        nextSceneIndex = firstLevelIndex;
+        SceneManager.LoadScene(0);
+    }
 
     public void TogglePauseGame()
     {
         gamePaused = hud.TogglePauseMenu();
+        mouseLook.MouseLookEnabled = !gamePaused;
    
         if(gamePaused == true)
         {

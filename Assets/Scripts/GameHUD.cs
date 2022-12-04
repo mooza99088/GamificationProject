@@ -46,9 +46,5 @@ public class GameHUD : MonoBehaviour
         return pauseMenu.activeSelf;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    
 }
