@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.39589867, g: 0.43418753, b: 0.4992053, a: 1}
+  m_IndirectSpecularColor: {r: 0.39593026, g: 0.43422657, b: 0.4992171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6011,7 +6011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2418135616693463013, guid: 9cd3ca45d2b0bbf438e0e1227a09a637, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.152
+      value: 0.341
       objectReference: {fileID: 0}
     - target: {fileID: 2418135616693463013, guid: 9cd3ca45d2b0bbf438e0e1227a09a637, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18843,7 +18843,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2418135616693463013, guid: 9cd3ca45d2b0bbf438e0e1227a09a637, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.05
+      value: 3.263
       objectReference: {fileID: 0}
     - target: {fileID: 2418135616693463013, guid: 9cd3ca45d2b0bbf438e0e1227a09a637, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19197,7 +19197,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BATH ROOM
+  m_Text: BATHROOM
 --- !u!222 &609033488
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32740,7 +32740,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BED ROOM
+  m_Text: BEDROOM
 --- !u!222 &969390269
 CanvasRenderer:
   m_ObjectHideFlags: 0
