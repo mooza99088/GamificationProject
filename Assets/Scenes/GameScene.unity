@@ -6250,10 +6250,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Includes a working fireplace to help keep warm during the colder months
-    of winter
-
-'
+  m_Text: "\n\n\tIncludes a working \n\tfireplace to help keep \n\twarm during the
+    colder \n\tmonths of winter\n"
 --- !u!222 &173815484
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8387,7 +8385,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &498269744
 Transform:
   m_ObjectHideFlags: 0
@@ -27719,12 +27717,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The cabin comes completely furnished and consists of 1 bedroom, 1 bathroom,
-    and a living
-
-    area with an open kitchen.
-
-'
+  m_Text: "\tThe cabin comes \n\tcompletely furnished and \n\tconsists of 1 bedroom,
+    1 \n\tbathroom, and a living\n\tarea with an open \n\tkitchen.\n"
 --- !u!222 &860568186
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32658,10 +32652,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The open kitchen includes a pantry, a fridge, a gas-powered stovetop,
-    and a fan-forced
-
-    oven.'
+  m_Text: "\n\tThe open kitchen \n\tincludes a pantry, a \n\tfridge, a gas-powered
+    \n\tstovetop, and a \n\tfan-forced\n\toven."
 --- !u!222 &892478931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39773,10 +39765,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The cabin is completely plumbed, including a working bathroom with a shower
-    and toilet
-
-'
+  m_Text: "\n\tThe cabin is completely \n\tplumbed, including a \n\tworking bathroom
+    with a \n\tshower and toilet\n"
 --- !u!222 &1387949549
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -56381,12 +56371,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Includes one bedroom that is large enough to comfortably house two adults
-    for long-term
-
-    stays
-
-'
+  m_Text: "\n\tIncludes one bedroom \n\tthat is large enough to \n\tcomfortably house
+    two \n\tadults for long-term\n\tstays\n"
 --- !u!222 &1726929309
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -57746,6 +57732,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987589331}
   m_CullTransparentMesh: 1
+--- !u!1001 &1999850794
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 689581233}
+    m_Modifications:
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099632, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099639, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_Name
+      value: Area_circles_blue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
 --- !u!1 &2007988652
 GameObject:
   m_ObjectHideFlags: 0
@@ -57816,9 +57871,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Uses renewable solar energy as the primary power source for the property.
-
-'
+  m_Text: "\n\tUses renewable solar \n\tenergy as the primary \n\tpower source for
+    the \n\tproperty.\n"
 --- !u!222 &2007988655
 CanvasRenderer:
   m_ObjectHideFlags: 0
